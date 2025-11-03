@@ -1,0 +1,29 @@
+<%- include('../partials/admin_head', { title }) %>
+  <div class="row g-3">
+    <div class="col-12">
+      <h1 class="h3 mb-3">Admin Dashboard</h1>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <a class="text-decoration-none" href="/admin/taikhoan">
+        <div class="card card-hover shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title mb-1">Tài khoản</h5>
+            <div class="text-muted">Danh sách, thêm, sửa, xóa tài khoản</div>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <a class="text-decoration-none" href="/admin/donhang">
+        <div class="card card-hover shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title mb-1">Đơn hàng</h5>
+            <div class="text-muted">Danh sách, thêm, sửa, xóa đơn hàng</div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+<%- include('../partials/admin_footer') %>
+
+
