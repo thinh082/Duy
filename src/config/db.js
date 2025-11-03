@@ -8,7 +8,7 @@ const sql = require('mssql');
 const config = {
   server: process.env.DB_SERVER || 'DESKTOP-TH266UN',
   user: process.env.DB_USER || 'sa',
-  password: process.env.DB_PASSWORD || 'thinh123',
+  password: process.env.DB_PASSWORD || '110604',
   database: process.env.DB_NAME || 'Portal',
   port: process.env.DB_PORT ? parseInt(process.env.DB_PORT, 10) : 1433,
   pool: {
